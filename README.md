@@ -19,9 +19,10 @@ It sequentially checks each element of the list until it finds the target value 
 ### Description: 
 This algorithm works by repeatedly dividing a sorted array in half, comparing the target value to the middle element.
 ### Time Complexity:
-Best case: O(1)
-Average/Worst case: O(log n)
-Space Complexity: O(1) (iterative) or O(log n) (recursive)
+- Best case: O(1)
+- Average/Worst case: O(log n)
+### Space Complexity: 
+O(1) (iterative) or O(log n) (recursive)
 Key Points:
 Requires the array to be sorted.
 Much faster than linear search for large datasets.
