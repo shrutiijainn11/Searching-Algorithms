@@ -18,7 +18,7 @@ It sequentially checks each element of the list until it finds the target value 
 ## Binary Search
 ### Description: 
 This algorithm works by repeatedly dividing a sorted array in half, comparing the target value to the middle element.
-Time Complexity:
+### Time Complexity:
 Best case: O(1)
 Average/Worst case: O(log n)
 Space Complexity: O(1) (iterative) or O(log n) (recursive)
