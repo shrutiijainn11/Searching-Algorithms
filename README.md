@@ -23,7 +23,7 @@ This algorithm works by repeatedly dividing a sorted array in half, comparing th
 - Average/Worst case: O(log n)
 ### Space Complexity: 
 O(1) (iterative) or O(log n) (recursive)
-Key Points:
+### Key Points:
 Requires the array to be sorted.
 Much faster than linear search for large datasets.
 Can be implemented iteratively or recursively.
