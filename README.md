@@ -16,7 +16,8 @@ It sequentially checks each element of the list until it finds the target value 
 - Useful when the dataset is small or unsorted.
 
 ## Binary Search
-Description: This algorithm works by repeatedly dividing a sorted array in half, comparing the target value to the middle element.
+### Description: 
+This algorithm works by repeatedly dividing a sorted array in half, comparing the target value to the middle element.
 Time Complexity:
 Best case: O(1)
 Average/Worst case: O(log n)
