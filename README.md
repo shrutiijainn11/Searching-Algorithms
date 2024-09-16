@@ -16,3 +16,12 @@ It sequentially checks each element of the list until it finds the target value 
 - Useful when the dataset is small or unsorted.
 
 ## Binary Search
+Description: This algorithm works by repeatedly dividing a sorted array in half, comparing the target value to the middle element.
+Time Complexity:
+Best case: O(1)
+Average/Worst case: O(log n)
+Space Complexity: O(1) (iterative) or O(log n) (recursive)
+Key Points:
+Requires the array to be sorted.
+Much faster than linear search for large datasets.
+Can be implemented iteratively or recursively.
